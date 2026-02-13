@@ -52,7 +52,6 @@ The project is structured to clearly separate:
 - Text extraction
 - LLM interaction
 
-This makes the codebase easy to extend (e.g., adding RAG or agents in future versions).
 
 ---
 
