@@ -38,13 +38,12 @@ The goal of this project was to **learn practical GenAI development** by buildin
 ## Project Architecture
 resume_ai/
 │
-├── app.py # Streamlit application
-├── requirements.txt # Project dependencies
+├── app.py                # Streamlit application
+├── requirements.txt      # Project dependencies
 ├── utils/
-│ ├── file_loader.py # File type handling
-│ ├── text_extractor.py # PDF/DOCX text extraction
-│ └── llm_client.py # LLM API interaction
-
+│   ├── file_loader.py    # File type handling
+│   ├── text_extractor.py # PDF/DOCX text extraction
+│   └── llm_client.py     # LLM API interaction
 
 
 The project is structured to clearly separate:
@@ -74,27 +73,3 @@ This makes the codebase easy to extend (e.g., adding RAG or agents in future ver
 - Secure API key management using environment variables
 - Deploying a production-ready GenAI application
 
----
-
-## Why No RAG?
-RAG was intentionally not used because:
-- Inputs are small and user-provided (single resume + job description)
-- No external knowledge base is required
-- Prompt-based reasoning is sufficient and more efficient
-
-RAG is planned as a potential future enhancement when scaling to multiple jobs or resume databases.
-
----
-
-## Future Improvements
-- JSON-based structured output parsing
-- Multi-job comparison for a single resume
-- Resume keyword optimization using embeddings
-- RAG integration for industry skill databases
-- Agent-based automation for job discovery
-
----
-
-## Disclaimer
-This project is built for **learning and demonstration purposes** and does not guarantee hiring outcomes.  
-The analysis should be used as guidance, not as a replacement for professional review.
