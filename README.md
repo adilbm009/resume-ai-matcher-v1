@@ -45,6 +45,7 @@ resume_ai/
 │   ├── file_loader.py
 │   ├── text_extractor.py
 │   └── llm_client.py
+```
 
 The project is structured to clearly separate:
 - UI logic
