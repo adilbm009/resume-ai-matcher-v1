@@ -36,15 +36,15 @@ The goal of this project was to **learn practical GenAI development** by buildin
 ---
 
 ## Project Architecture
+```text
 resume_ai/
 │
-├── app.py                # Streamlit application
-├── requirements.txt      # Project dependencies
+├── app.py
+├── requirements.txt
 ├── utils/
-│   ├── file_loader.py    # File type handling
-│   ├── text_extractor.py # PDF/DOCX text extraction
-│   └── llm_client.py     # LLM API interaction
-
+│   ├── file_loader.py
+│   ├── text_extractor.py
+│   └── llm_client.py
 
 The project is structured to clearly separate:
 - UI logic
